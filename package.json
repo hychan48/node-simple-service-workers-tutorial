@@ -1,0 +1,12 @@
+{
+  "name": "simple-service-workers-tutorial",
+  "version": "1.0.0",
+  "description": "Going through the basic tutorial for service workers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["service workers", "mdn tutorial"],
+  "author": "hychan48",
+  "license": "MIT"
+}
