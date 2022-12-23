@@ -47,3 +47,8 @@ and the remains of the previous version are cleaned during the new versions acti
 * fetched
 * sync
 * push
+
+# Summary
+* preload caches "enableNavigationPreload"
+* fallbackURL
+* delete Cache

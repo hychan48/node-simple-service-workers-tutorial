@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "serve index.html",
-    "nodemon": "nodemon -e js --exec serve index.html"
+    "serve": "serve ./",
+    "nodemon": "nodemon -e js --no-clipboard --exec serve ./"
   },
   "keywords": [
     "service workers",

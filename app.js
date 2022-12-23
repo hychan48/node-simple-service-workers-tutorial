@@ -1,6 +1,7 @@
-const scriptURL = process.env.scriptURL || "/sw.js";
-const scope = process.env.scope || '/';
-
+// const scriptURL = process ? process.env.scriptURL : "/sw.js";
+// const scope = process ? process.env.scope : '/';
+const scriptURL = "/sw.js";
+const scope = '/';
 /**
  * Should only work for https... and hopefully localhost
  * @return {Promise<void>}
