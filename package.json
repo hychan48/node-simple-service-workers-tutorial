@@ -4,9 +4,17 @@
   "description": "Going through the basic tutorial for service workers",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve index.html",
+    "nodemon": "nodemon -e js --exec serve index.html"
   },
-  "keywords": ["service workers", "mdn tutorial"],
+  "keywords": [
+    "service workers",
+    "mdn tutorial"
+  ],
   "author": "hychan48",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
